@@ -5,7 +5,7 @@ function binarySearch(numArr, target)
 
     while(firstIndex <= lastIndex)
     {
-        let midIndex = Math.floor(firstIndex + lastIndex)/2;
+        let midIndex = Math.floor((firstIndex + lastIndex)/2);
 
         if(numArr[midIndex] === target)
         {
